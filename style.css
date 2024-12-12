@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #ff4d00;
+    color: #fff;
+}
+
+.head_top{
+    height: 30px;
+    display: flex;
+}
+
+.topspace{
+    width: 60px;
+}
+
+.topleft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+    font-size: 0.8rem;
+}
+
+.topright{
+    width: 145px;
+    height: 30px;
+    display: flex;
+    top: 0px;
+    right: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: fixed;
+    background-color:#0000004d;
+    padding: 0px 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.topright img{
+    height: 20px;
+}
+
+.topright p{
+    font-size: 0.9rem;
+}
+
+.topleft1{
+    cursor: pointer;
+}
+
+.topleft2{
+    cursor: pointer;
+}
+
+.topleft3{
+    cursor: pointer;
+}
+
+.tophover:hover{
+    color: #cdcdcd;
+}
+
+.mainhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo{
+    height: 48px;
+    width: 120px;
+}
+
+.logo img{
+    height: 48px;
+}
+
+.Search{
+    height: 38px;
+    width: 775px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.Search input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+::placeholder{
+    color: #a1a09e;
+}
+
+.Search i{
+    height: 30px;
+    width: 60px;
+    background-color:#ffe1d2;
+    color:#f85606;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.login p{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.down{
+    font-size: 0.7rem;
+    padding-top: 5px;
+}
+
+.language p{
+    font-weight: 600;
+}
+
+.cart i{
+    font-size: 1.5rem;
+}
+
+.row{
+    margin-left: 120px;
+    display: flex;
+}
+
+
+.card{
+    margin: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.card h4 span{
+    font-size: 13px;
+    color: #666;
+}
+
+.card i{
+    font-size: 12px;
+}
+
+.btn{
+    border: 1px solid rgb(95, 95, 245);
+    display: inline-block;
+    padding: 10px 130px;
+    cursor: pointer;
+    margin-left: 40%;
+}
+.btn a{
+    color: rgb(95, 95, 245);
+    text-decoration: none;
+}
